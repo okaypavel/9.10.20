@@ -12,8 +12,8 @@
     width: 80px;
     height: 80px;
     text-align: center;
-    color: aqua;
-    background-color: black;
+    color: white;
+    background-color:  rgb(255, 0, 119);
     margin: 0 auto;
     
 }
@@ -46,4 +46,59 @@ img{
 }
 .main-img-anim{
     overflow: hidden;
+}
+.nav-main-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 100;
+}
+.margin-main-top{
+    padding-top: 80px;
+}
+.main-nav-text{
+    font-size: 1rem;
+}
+.navbar-main-text{
+    font-size: 2rem;
+    color: rgb(255, 0, 119);
+}
+.color-main-text{
+    color: rgb(255, 0, 119);
+}
+.navbar-main-text:hover{
+    color: rgb(255, 0, 119);
+}
+.color-main-text:hover{
+    color: pink;
+}
+
+.bg-img{
+    background-image: url(../img/7.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: pink;
+}
+
+.caption:hover{
+    color:  rgb(255, 0, 119);
+}
+.caption span.border{
+    border: 0px rgb(255, 0, 119);
+    padding: 18px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.rozmiar-p{
+    font-size: 7rem;
 }
